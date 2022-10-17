@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegando em Iframes</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 1.3em;
+            text-align: left;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bolder;
+            color: red;
+        }
+
+        p#opcao {
+            color: rgb(11, 159, 70);
+        }
+
+        iframe#tela {
+            display: block;
+            width: 95vh;
+            height: 400px;
+            border: 1px solid black;
+            margin: 0;
+            
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a obcaecati unde rerum omnis perspiciatis. Modi, eaque eligendi placeat magni illo architecto nostrum consequatur ad voluptas ipsa iste deserunt minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit corporis debitis porro cupiditate quisquam nesciunt placeat dolore quia sint eligendi nisi dolorum quaerat repudiandae numquam quae eum, qui veniam?</p>
+    <p id="opcao">Você pode escolher os seguintes link´s , que serám exibidos em seu iFrame abaixo.</p>
+
+   <ul>
+    <li><a href="paginas/pag001.html" target="frame">Pag01</a></li>
+    <li><a href="paginas/pag002.html" target="frame"> Pag02</a></li>
+    <li><a href="paginas/pag003.html" target="frame">Pag03</a></li>
+   </ul>
+
+   <iframe id="tela" name="frame" src="paginas/pag001.html" frameborder="0">
+    <p>Erro de compatibilidade com seu navegador.</p>
+   </iframe>
+   
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum velit earum, excepturi saepe, dolorem expedita, in reiciendis explicabo tempore commodi adipisci iste sint mollitia voluptates pariatur corrupti officia fugiat iure? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, soluta officia? Ipsa at, earum aspernatur nisi et consectetur. Ea sapiente ratione consequatur aperiam. Laudantium quas eum voluptates. Quae, maxime delectus?</p>
+
+
+    
+</body>
+</html>
