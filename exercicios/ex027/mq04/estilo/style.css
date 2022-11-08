@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body, html {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: rgb(85, 85, 85);
+    
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    padding: 10px;
+}
+
+header ul {
+    text-align: center;
+    
+}
+
+header li{ 
+    
+    text-decoration: none;
+    display: block;
+    border: 1px solid rgb(75, 75, 75);
+    padding: 10px; 
+    background-color: rgb(105, 105, 105);
+    font-size: 1.2em;
+    
+
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+menu {
+    display: none;
+}
+
+li:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+span#burguer {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    
+}
+
+span#burguer:hover {
+    background-color: rgb(158, 158, 158);
+    color: rgb(44, 44, 44);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;   
+       
+}
+
+main  h2 {   
+    text-align: center;
+    padding: 10px;
+    color: rgb(51, 51, 51);
+}
+
+main > article > p {
+    text-align: justify;
+    padding: 10px;
+    text-indent: 20px;
+}
